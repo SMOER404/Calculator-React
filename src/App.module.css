@@ -1,0 +1,46 @@
+.wrapper {
+    background: white;
+    max-width: 100%;
+    padding: 25px;
+    margin: 15px 0px;
+}
+
+.field_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0px -10px;
+}
+
+.field {
+    position: relative;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+    margin: 0px 10px;
+}
+
+.field span{
+    position: absolute;
+    top: 0px;
+    color: #ff0000;
+    font-size: 11px;
+    text-transform: lowercase;
+    font-weight: 500;
+}
+
+.field_wrapper button {
+    margin-left: 10px;
+}
+
+.result_list {
+    margin-top: 2rem;
+}
+
+.result_list > * {
+    margin-bottom: 10px;
+    line-height: 180%;
+}
+.result_list > *:last-child {
+    margin-bottom: 0px;
+}
